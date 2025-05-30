@@ -10,17 +10,15 @@ ms.localizationpriority: medium
 
 # Add user authentication to .NET apps for Microsoft Graph
 
-In this article, you'll add user authentication to the application you created in [Build .NET apps with Microsoft Graph](includes/dotnet/dotnet.md). You'll then use the Microsoft Graph user API to get the authenticated user.
+In this article, you'll add user authentication to the application you created in [Build .NET apps with Microsoft Graph](dotnet.md). You'll then use the Microsoft Graph user API to get the authenticated user.
 
 ## Add user authentication
 
-In this section you will extend the application from the previous exercise to support authentication with Azure AD. This is required to obtain the necessary OAuth access token to call the Microsoft Graph. In this step you will integrate the [Azure Identity client library for .NET](https://www.nuget.org/packages/Azure.Identity) into the application and configure authentication for the [Microsoft Graph .NET client library](https://github.com/microsoftgraph/msgraph-sdk-dotnet).
-
-The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph client library uses those classes to authenticate calls to Microsoft Graph.
+Begin by integrating the [Azure Identity client library for .NET](https://www.nuget.org/packages/Azure.Identity) into the application and configuring authentication for the [Microsoft Graph .NET client library](https://github.com/microsoftgraph/msgraph-sdk-dotnet). The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph client library uses those classes to authenticate calls to Microsoft Graph.
 
 ### Configure Graph client for user authentication
 
-In this section you will use the `DeviceCodeCredential` class to request an access token by using the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code).
+Start by using the `DeviceCodeCredential` class to request an access token by using the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code).
 
 1. Create a new file in the **GraphTutorial** directory named **GraphHelper.cs** and add the following code to that file.
 
@@ -84,7 +82,7 @@ Next, add code to get an access token from the `DeviceCodeCredential`.
 
 ## Get user
 
-In this section you will incorporate the Microsoft Graph into the application. For this application, you will use the [Microsoft Graph .NET Client Library](https://github.com/microsoftgraph/msgraph-sdk-dotnet) to make calls to Microsoft Graph.
+Now that authentication is configured, you can make your first Microsoft Graph API call. Add code to get the authenticated user's name and email address.
 
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 
@@ -130,4 +128,4 @@ The function returns a `Microsoft.Graph.User` object deserialized from the JSON 
 ## Next step
 
 > [!div class="nextstepaction"]
-[Read and send email](dotnet-email.md)
+> [Read and send email](dotnet-email.md)

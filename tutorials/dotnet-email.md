@@ -10,11 +10,11 @@ ms.localizationpriority: medium
 
 # Add email capabilities to .NET apps using Microsoft Graph
 
-In this article, you'll extend the application you created in [Build .NET apps with Microsoft Graph](includes/dotnet/dotnet.md) with Microsoft Graph mail APIs. You'll use Microsoft Graph to list the user's inbox and send an email.
+In this article, you'll extend the application you created in [Build .NET apps with Microsoft Graph](dotnet.md) with Microsoft Graph mail APIs. You'll use Microsoft Graph to list the user's inbox and send an email.
 
 ## List user's inbox
 
-In this section you will add the ability to list messages in the user's email inbox.
+Start by listing messages in the user's email inbox.
 
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 
@@ -64,7 +64,7 @@ In this section you will add the ability to list messages in the user's email in
     More messages available? True
     ```
 
-### Code explained
+### GetInboxAsync explained
 
 Consider the code in the `GetInboxAsync` function.
 
@@ -95,7 +95,7 @@ The function uses the `OrderBy` method on the request to request results sorted 
 
 ## Send mail
 
-In this section you will add the ability to send an email message as the authenticated user.
+Now add the ability to send an email message as the authenticated user.
 
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 
@@ -122,7 +122,7 @@ In this section you will add the ability to send an email message as the authent
 
 1. To verify the message was received, choose option 2 to list your inbox.
 
-### Code explained
+### SendMailAsync explained
 
 Consider the code in the `SendMailAsync` function.
 
@@ -137,4 +137,4 @@ Unlike the previous calls to Microsoft Graph that only read data, this call crea
 ## Next step
 
 > [!div class="nextstepaction"]
-[Add additional Microsoft Graph APIs](dotnet-extend-app.md)
+> [Add additional Microsoft Graph APIs](dotnet-extend-app.md)

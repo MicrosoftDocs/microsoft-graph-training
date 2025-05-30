@@ -75,7 +75,7 @@ dotnet add package Microsoft.Graph
 
 ## Load application settings
 
-In this section you'll add the details of your app registration to the project.
+Next, add the details of your app registration to the project.
 
 1. Create a file in the **GraphTutorial** directory named **appsettings.json** and add the following code.
 
@@ -107,7 +107,7 @@ In this section you'll add the details of your app registration to the project.
 
 ## Design the app
 
-In this section you will create a simple console-based menu.
+Continue by creating a simple console-based menu.
 
 1. Open **./Program.cs** and replace its entire contents with the following code.
 
@@ -152,4 +152,4 @@ This implements a basic menu and reads the user's choice from the command line.
 ## Next step
 
 > [!div class="nextstepaction"]
-[Add user authentication](dotnet-authentication.md)
+> [Add user authentication](dotnet-authentication.md)
