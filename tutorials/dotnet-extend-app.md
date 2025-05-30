@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Extend .NET apps with additional Microsoft Graph APIs
 
-In this article you will add your own Microsoft Graph capabilities to the application. This could be a code snippet from Microsoft Graph [documentation](/graph/api/overview) or [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer), or code that you created.
+In this article you will add your own Microsoft Graph capabilities to the application you created in [Build .NET apps with Microsoft Graph](dotnet.md). This could be a code snippet from Microsoft Graph [documentation](/graph/api/overview) or [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer), or code that you created.
 
 ## Update the app
 

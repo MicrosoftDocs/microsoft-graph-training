@@ -14,7 +14,7 @@ In this article, you'll add user authentication to the application you created i
 
 ## Add user authentication
 
-Begin by integrating the [Azure Identity client library for .NET](https://www.nuget.org/packages/Azure.Identity) into the application and configuring authentication for the [Microsoft Graph .NET client library](https://github.com/microsoftgraph/msgraph-sdk-dotnet). The Azure Identity library provides a number of `TokenCredential` classes that implement OAuth2 token flows. The Microsoft Graph client library uses those classes to authenticate calls to Microsoft Graph.
+The [Azure Identity client library for .NET](https://www.nuget.org/packages/Azure.Identity) provides a number of `TokenCredential` classes that implement OAuth2 token flows. The [Microsoft Graph .NET client library](https://github.com/microsoftgraph/msgraph-sdk-dotnet) uses those classes to authenticate calls to Microsoft Graph.
 
 ### Configure Graph client for user authentication
 
