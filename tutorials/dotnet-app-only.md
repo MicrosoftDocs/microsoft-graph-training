@@ -31,7 +31,7 @@ Before you start this tutorial, you should have the [.NET SDK](https://dotnet.mi
 > [!NOTE]
 > This tutorial was written with .NET SDK version 7.0.102. The steps in this guide may work with other versions, but that has not been tested.
 
-[!INCLUDE [app-auth-app-reg-steps](includes/dotnet/shared/app-auth-app-reg-steps.md)]
+[!INCLUDE [app-auth-app-reg-steps](includes/shared/app-auth-app-reg-steps.md)]
 
 ## Create a .NET console app
 
