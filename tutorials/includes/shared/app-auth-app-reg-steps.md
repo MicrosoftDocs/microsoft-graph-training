@@ -4,6 +4,10 @@ ms.localizationpriority: medium
 
 <!-- markdownlint-disable MD041 MD051 -->
 
+## Register application for app-only authentication
+
+In this section you will register an application that supports app-only authentication using [client credentials flow](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+
 ### [Microsoft Entra admin center](#tab/aad)
 
 1. Open a browser and navigate to the [Microsoft Entra admin center](https://entra.microsoft.com) and login using a Global administrator account.
