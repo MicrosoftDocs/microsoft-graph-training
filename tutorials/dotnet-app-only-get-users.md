@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # List users in .NET apps using Microsoft Graph
 
-In this article, you'll extend the application you created in [Build .NET apps with Microsoft Graph and app-only authentication](includes/dotnet-app-only.md) with Microsoft Graph user APIs. You'll use Microsoft Graph to list users in your organization.
+In this article, you'll extend the application you created in [Build .NET apps with Microsoft Graph and app-only authentication](dotnet-app-only.md) with Microsoft Graph user APIs. You'll use Microsoft Graph to list users in your organization.
 
 1. Open **./GraphHelper.cs** and add the following function to the **GraphHelper** class.
 

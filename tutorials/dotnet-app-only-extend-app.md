@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Extend .NET apps that use app-only authentication with additional Microsoft Graph APIs
 
-In this article you will add your own Microsoft Graph capabilities to the application you created in [Build .NET apps with Microsoft Graph and app-only authentication](includes/dotnet/app-only/dotnet-app-only.md). This could be a code snippet from Microsoft Graph [documentation](/graph/api/overview) or [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer), or code that you created.
+In this article you will add your own Microsoft Graph capabilities to the application you created in [Build .NET apps with Microsoft Graph and app-only authentication](dotnet-app-only.md). This could be a code snippet from Microsoft Graph [documentation](/graph/api/overview) or [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer), or code that you created.
 
 ## Update the app
 

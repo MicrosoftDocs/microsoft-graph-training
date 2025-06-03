@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Add app-only authentication to .NET apps for Microsoft Graph
 
-In this article, you'll add app-only authentication to the application you created in [Build .NET apps with Microsoft Graph and app-only authentication](includes/dotnet-app-only.md).
+In this article, you'll add app-only authentication to the application you created in [Build .NET apps with Microsoft Graph and app-only authentication](dotnet-app-only.md).
 
 The [Azure Identity client library for .NET](https://www.nuget.org/packages/Azure.Identity) provides a number of `TokenCredential` classes that implement OAuth2 token flows. The [Microsoft Graph .NET client library](https://github.com/microsoftgraph/msgraph-sdk-dotnet) uses those classes to authenticate calls to Microsoft Graph.
 
