@@ -48,19 +48,14 @@
     "globalMetadata": {
       "breadcrumb_path": "/graph/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None",
+      "feedback_system": "Standard",
       "uhfHeaderId": "MSDocsHeader-MSGraph",
-      "ms.prod": "non-product-specific",
-      "ms.technology": "microsoft-graph"
+      "ms.subservice": "non-product-specific",
+      "ms.service": "microsoft-graph"
     },
     "fileMetadata": {
-      "featureFlags": {
-        "tutorials/*.yml": [
-          "enable_tutorial_feedback"
-        ]
-      },
       "titleSuffix": {
-        "**/*.yml": "Microsoft Graph"
+        "**/*.md": "Microsoft Graph"
       }
     },
     "template": [],
