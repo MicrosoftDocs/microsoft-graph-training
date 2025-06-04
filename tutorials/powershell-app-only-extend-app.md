@@ -1,10 +1,16 @@
 ---
+title: Extend PowerShell scripts that use app-only authentication with additional Microsoft Graph APIs
+description: Learn how to add additional Microsoft Graph APIs to PowerShell scripts that use app-only authentication.
+author: jasonjoh
+ms.author: jasonjoh
+ms.topic: how-to
+ms.date: 06/03/2025
 ms.localizationpriority: medium
 ---
 
-<!-- markdownlint-disable MD041 -->
+# Extend PowerShell scripts that use app-only authentication with additional Microsoft Graph APIs
 
-In this section you will use your own Microsoft Graph PowerShell SDK commands. This could be a code snippet from Microsoft Graph [documentation](/graph/api/overview) or [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer), or code that you created. This section is optional.
+In this article you will add your own Microsoft Graph capabilities to the application you created in [Build PowerShell scripts with Microsoft Graph](powershell.md). This could be a code snippet from Microsoft Graph [documentation](/graph/api/overview) or [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer), or code that you created.
 
 ## Choose an API
 
@@ -42,3 +48,10 @@ To call an API with app-only authentication (if the API supports it), add the re
 ## Run the command
 
 Now that you are connected with the required permissions, run your chosen command.
+
+## Related content
+
+You've completed the PowerShell Microsoft Graph app-only tutorial. Now that you have a working app that calls Microsoft Graph, you can experiment and add new features.
+
+- Learn how to use [user (delegated) authentication](/graph/tutorials/powershell) with the Microsoft Graph PowerShell SDK.
+- Visit the [Overview of Microsoft Graph](/graph/overview) to see all of the data you can access with Microsoft Graph.
