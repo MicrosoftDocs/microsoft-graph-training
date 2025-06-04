@@ -28,13 +28,13 @@ To complete this exercise in this post you need the following:
 
 1. Select **Microsoft Entra ID** in the left-hand navigation, expand **Identity**, expand **Applications**, then select **App registrations**.
 
-    :::image type="content" source="../../images/entra-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
+    :::image type="content" source="images/entra-portal-app-registrations.png" alt-text="A screenshot of the App registrations":::
 
 1. Choose the **New registration**. Enter `MS Graph Batch App` in the **Name** field. In the **Supported account types** section, select **Accounts in any organizational directory**. Leave the **Redirect URI** section blank and choose **Register**.
 
 1. On the **MS Graph Batch App** page, copy the **Application (client) ID**. You'll need this to configure your connector.
 
-    :::image type="content" source="../../images/power-automate/app-id.png" alt-text="A screen shot of the registered application page":::
+    :::image type="content" source="images/power-automate/app-id.png" alt-text="A screen shot of the registered application page":::
 
 1. Choose **API permissions** under **Manage**. Choose **Add a permission** under **API permissions**.
 
@@ -51,7 +51,7 @@ To enable management of additional services accessible via the Microsoft Graph, 
 
 ## Create the connector
 
-1. Open a browser and navigate to [Microsoft Power Automate](hhttps://make.powerautomate.com/). Sign in with your Microsoft 365 tenant administrator account. Choose **Custom connectors** on the left-hand side menu. If **Custom connectors** isn't present in the menu, select **More**, then **Discover all**.
+1. Open a browser and navigate to [Microsoft Power Automate](https://make.powerautomate.com/). Sign in with your Microsoft 365 tenant administrator account. Choose **Custom connectors** on the left-hand side menu. If **Custom connectors** isn't present in the menu, select **More**, then **Discover all**.
 
 1. On the **Custom Connectors** page choose the **New custom connector** link in the top right, then select the **Create from blank** item in the drop-down menu.
 
